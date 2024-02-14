@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  .video-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .video-item {
+    flex: 0 0 30%;
+    margin: 0 1.5%;
+  }
+  
+  .video-player {
+    margin-top: 20px;
+  }
+  
+  /* Styling for buttons and input */
+  button,
+  input[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #ff8c00;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e07e00;
+  }
+  
+  input[type="file"] {
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  
